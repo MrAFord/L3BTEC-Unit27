@@ -1,0 +1,22 @@
+<html>
+
+<head><title>Upload example</title></head>
+
+<body>
+
+	<h1>Awesomely Simple Form for Uploading</h1> 
+
+	<!-- The data encoding type, enctype, MUST be specified as below -->
+	<!-- Note: upload.php is the name of the file that will process the upload -->
+	<form enctype="multipart/form-data" action="upload.php" method="POST">
+		
+		<!-- MAX_FILE_SIZE must precede the file input field -->
+		<input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+		
+		<!-- Name of input element determines name in $_FILES array -->
+		Send this file: <input name="userfile" type="file" />
+		<input type="submit" value="Send File" />
+		
+	</form>
+</body>
+</html>
