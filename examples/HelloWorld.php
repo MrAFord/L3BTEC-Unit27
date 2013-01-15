@@ -18,7 +18,7 @@
 	
 	-->
 
-<head><title>PHP Hello World</title></head>
+<head><title>PHP Hello World</title></head> 
 
 <body>
 
