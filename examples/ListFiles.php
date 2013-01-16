@@ -36,9 +36,10 @@
 	// set the path on the server that we want to view files
 	$d = dir("/Users/mrford/Sites/mrford.koding.com/website/unit27/examples");
 	// print out some stats 
-	echo "Handle: " . $d->handle . "<br>\n";
+    
 	echo "Path: " . $d->path . "<br>\n";
-	echo "<p>Contents:</p>";
+	
+    echo "<p>Contents:</p>";
 	// create an unorder list to hold the filenames
 	echo "<ul>";
 	// loop and keep reading from the path object 
