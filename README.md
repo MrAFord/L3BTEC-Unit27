@@ -1,6 +1,6 @@
-% README.md for L3BTEC-Unit27
-% Adrian Ford
-% Updated: 13 Jan 2013
+* README.md for L3BTEC-Unit27
+* Adrian Ford
+* Updated: 13 Jan 2013
 
 # L3BTEC-Unit27
 
