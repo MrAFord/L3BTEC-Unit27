@@ -77,6 +77,27 @@
 			echo "<p>I hope that $value wasn't a secret password!</p>";
 		
 		}
+		
+		// a common task with passwords is to ask the user for their new password
+		// twice and then compare to check that they are the same.
+		// This reduces the risk that the user will mistype their password.
+		
+		// the following if statements look for form fields named pwd1 and pwd2
+		// and compares them to check that they match. How would you update the form
+		// so that this checks two entries to make sure the passwords are the same?
+		if($key == "pwd1"){
+            $pwd1 = $value;    
+        }
+        if($key == "pwd2"){
+            $pwd2 = $value;
+        }
+		if($pwd1 != $pwd2) {	
+			echo "<p>You passwords do not match</p>";
+		}
+
+		
+		
+		
 
 		echo "<p> $key => $value </p>";  // not how PHP automatically expands $key and $value
         
