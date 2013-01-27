@@ -58,7 +58,7 @@
 		if($key == "age") {
 			echo "<h2>Age</h2>";
 			$age = (int)$value;		// we use (int) to convert the value to an integer number
-			echo "<p>It's niec to have someone with the experience of $value years with us.</p>";
+			echo "<p>It's nice to have someone with the experience of $value years with us.</p>";
 			if($age < 42) {
 				echo "<p>Youngster!</p>";
 			

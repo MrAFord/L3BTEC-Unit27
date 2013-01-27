@@ -60,7 +60,7 @@
 		the information to the server-->
 		<p>PHP says: 
             <?php
-                echo ($_POST["height"] x $_POST["width"]);           
+                echo ($_POST["height"] . " x " . $_POST["width"]);           
             ?>
 		</p>
         
