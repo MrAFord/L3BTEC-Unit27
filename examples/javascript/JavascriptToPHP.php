@@ -45,7 +45,7 @@
 		<form action="JavascriptToPHP.php" name="hiddenForm" method="POST">
 			<input type="hidden" id="width1" name="width" value="unknown" />
 			<input type="hidden" id="height1"name="height" value="unknown" />
-			<input type="submit" value="Update" />
+			<input type="submit" value="Click to update data for PHP script..." />
 		</form>
 		
 		<!-- This Javascript code sets the values of the __hidden__ width and height fields 
