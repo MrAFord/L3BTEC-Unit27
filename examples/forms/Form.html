@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Example: Form</title>
+    <style>
+		body {
+			padding-top: 10px; 
+			font-family: "Segoe UI", Verdana, Helvetica, Sans;
+		}
+		h1 { font-size: 		24pt;}
+		li { padding-bottom:	8pt;}
+	</style>
+</head>
+<body>
+		<h1>An example of an HTML form</h1>
+
+	    <!-- not sure what HTML tags to use in a form?
+          --
+          -- Try http://www.webmonkey.com/2010/02/html_cheatsheet/#Forms
+          -->
+    
+		<!-- this form will submit the information entered to dumpFile.php -->
+		<!-- note that we set the submission method to POST which means we'll
+			extract the information from the $_POST variable in the PHP script
+			that processes the submission (dumpForm.php in this case -->
+        <form action="dumpForm.php" method="POST">
+
+			<!-- Some basic text fields -->
+		    First name: 		<input type="text" name="firstname"  >	<br>
+            Age: 				<input type="text" name="age" > 		<br/>
+			<!-- the password input type is like text but doesn't display
+				the characters when typed into the box -->
+			Pick a password:	<input type="password" name="pwd" > 		<br/>
+            
+			<!-- a simple radio button. Note that radio buttons act as a group, each
+				radio button in the group has the same name attribute. To have a default 
+				selected radio button add the checked attribute to it -->
+            <ul>
+                <li>Pick X: <input type="radio" name="exampleradio" value="x" checked></li>
+                <li>Pick Y: <input type="radio" name="exampleradio" value="y"></li>
+                <li>Pick Z: <input type="radio" name="exampleradio" value="z"></li>
+            </ul>
+            
+			<!-- create a button for the user to submit the form -->
+            <input type="submit" value="Submit this form" />
+		
+	    </form>
+
+
+</body>
+</html>

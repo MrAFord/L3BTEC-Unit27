@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>PHP Example: Simple PHP</title>
-    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap-combined.min.css" rel="stylesheet" />
+<head>
+    <title>Example: Prime numbers</title>
     <style>
-                body {
-                        padding-top: 10px; /* 60px to make the container go all the way to the bottom of the topbar */
-                        font-family: &amp;quot;Segoe UI&amp;quot;, Verdana, Helvetica, Sans;
-                }
-                h1 {
-                        font-size:      24pt;
-                }
-                li { padding-bottom: 8pt;}
-        
-</style>
-  </head>
-  <body>
+		body {
+			padding-top: 10px; 
+			font-family: "Segoe UI", Verdana, Helvetica, Sans;
+		}
+		h1 { font-size: 		24pt;}
+		li { padding-bottom:	8pt;}
+	</style>
+</head>
+<body>
 
     
 
@@ -55,5 +51,5 @@
 		
         
     
-    </body>
+</body>
 </html>

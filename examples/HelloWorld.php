@@ -1,4 +1,15 @@
 <html>
+<head>
+    <title>PHP Hello World</title>
+    <style>
+		body {
+			padding-top: 10px; 
+			font-family: "Segoe UI", Verdana, Helvetica, Sans;
+		}
+		h1 { font-size: 		24pt;}
+		li { padding-bottom:	8pt;}
+	</style>
+</head>
 
 <!-- this is a PHP file - look at the .php extension! - but we
 	can mix HTML and PHP content.
@@ -18,7 +29,6 @@
 	
 	-->
 
-<head><title>PHP Hello World</title></head> 
 
 <body>
 
