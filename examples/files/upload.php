@@ -3,7 +3,8 @@
 <?php
 
 	/* location we want files moved to _after_ upload (check permissions) */
-	$uploaddir = '/website/upload/';
+    // *** UPDATE THE PATH FOR YOUR SERVER ***
+	$uploaddir = '/Users/mrford/Sites/mrford.koding.com/website/unit27/examples/files/';  
 	
 	$uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
 
@@ -24,6 +25,6 @@
 
 	print "</pre>";
 
-	print "<p><a href='list.php'>List Files</a></p>";
+	print "<p><a href='ListFiles.php'>List Files</a></p>";
 
 ?>

@@ -22,7 +22,7 @@
 	// set the path on the server that we want to view files
 	// YOU WILL NEED TO SET THIS TO A PATH ON YOUR SERVER
 	// BE CAREFUL WHAT YOU SHARE>>>>>>>>>!!!!!!!
-	$d = dir("/Users/mrford/Sites/mrford.koding.com/website/unit27/examples");
+	$d = dir("/Users/mrford/Sites/mrford.koding.com/website/unit27/examples/files");
 
 
 	// Get the path to the directory     
