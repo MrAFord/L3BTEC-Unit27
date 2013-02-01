@@ -2,9 +2,9 @@
 
 <?php
 
-    $user="mrford_qozaqafah";
-    $password="aford42b2";
-    $database="mysql0.db.koding.com";
+    $user="";
+    $password="";
+    $database="";
     $con = mysql_connect($database,$user,$password);
     if (!$con)
       {
