@@ -13,11 +13,21 @@
     
     // some code
     
+    $newFirstName = "mary";
+    $newLastName = "builder";
+    $newAge = 36;
+    
     mysql_select_db($user, $con);
 
+    $query = "INSERT INTO Persons 
+        (FirstName, LastName, Age) VALUES ('"
+        .$newFirstName."', '"
+        .$newLastName."'," 
+        .$newAge.")";
+        
+    echo "<p>".$query."</p>";
 
-    $result = mysql_query("INSERT INTO Persons 
-        (FirstName, LastName, Age) VALUES ('Bob', 'Builder', 67)");
+    $result = mysql_query($query);
 
 
     echo $result;   

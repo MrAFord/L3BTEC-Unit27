@@ -1,4 +1,6 @@
-<h1>Query (select) from table</h1>
+<h1>Show Create Table</h1>
+
+<!-- Given a table in the SQL database, recreate the SQL CREATE command -->
 
 <?php
 
@@ -12,18 +14,19 @@
       }
     
     // some code
+
     
     mysql_select_db($user, $con);
 
-    $result = mysql_query("SELECT * FROM Persons");
+    $result = mysql_query("SHOW CREATE TABLE Persons");
+   
+    while ($row = mysql_fetch_array($result)) {
+        echo '<pre>';
+        print_r ($row);
+        echo '</pre>';
+    }
+        
     
-    while($row = mysql_fetch_array($result))
-      {
-      echo "Name: " . $row['FirstName'] . " " . $row['lastName'] . 
-            " Age: " . $row['Age'] ;
-      echo "<br />";
-      }
-
     
     mysql_close($con);
 
